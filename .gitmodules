@@ -7,3 +7,6 @@
 [submodule "emacs_stuff/spacemacs"]
 	path = emacs_stuff/spacemacs
 	url = https://github.com/syl20bnr/spacemacs.git
+[submodule "terminal_stuff/oh-my-bash"]
+	path = terminal_stuff/oh-my-bash
+	url = https://github.com/ohmybash/oh-my-bash.git
