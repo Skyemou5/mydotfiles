@@ -1,11 +1,11 @@
 [submodule ".emacs.d"]
-	path = .emacs.d
+	path = emacs_stuff/.emacs.d
 	url = https://github.com/plexus/chemacs2
 [submodule ".doom-emacs.d"]
-	path = .doom-emacs.d
+	path = emacs_stuff/.doom-emacs.d
 	url = git@github.com:hlissner/doom-emacs.git
 [submodule ".spacemacs.d"]
-	path = .spacemacs.d
+	path = emacs_stuff/.spacemacs.d
 	url = https://github.com/syl20bnr/spacemacs.git
 [submodule "emacs_stuff/chemacs2"]
 	path = emacs_stuff/chemacs2
