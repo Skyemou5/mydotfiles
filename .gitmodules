@@ -22,3 +22,6 @@
 [submodule "terminal_stuff/kitty_config/kitty/kitty-themes"]
 	path = terminal_stuff/kitty_config/kitty/kitty-themes
 	url = https://github.com/dexpota/kitty-themes.git
+[submodule "emacs_stuff/emacs_source/emacs"]
+	path = emacs_stuff/emacs_source/emacs
+	url = https://github.com/emacs-mirror/emacs.git
