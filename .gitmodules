@@ -10,3 +10,6 @@
 [submodule "terminal_stuff/oh-my-bash"]
 	path = terminal_stuff/oh-my-bash
 	url = https://github.com/ohmybash/oh-my-bash.git
+[submodule "fonts/nerd-fonts"]
+	path = fonts/nerd-fonts
+	url = https://github.com/ryanoasis/nerd-fonts.git
