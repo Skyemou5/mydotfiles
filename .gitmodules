@@ -13,3 +13,6 @@
 [submodule "fonts/nerd-fonts"]
 	path = fonts/nerd-fonts
 	url = https://github.com/ryanoasis/nerd-fonts.git
+[submodule "emacs_stuff/chemacs_as_default/.emacs.d"]
+	path = emacs_stuff/chemacs_as_default/.emacs.d
+	url = https://github.com/plexus/chemacs2.git
