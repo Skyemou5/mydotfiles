@@ -7,3 +7,6 @@
 [submodule ".spacemacs.d"]
 	path = .spacemacs.d
 	url = https://github.com/syl20bnr/spacemacs.git
+[submodule "emacs_stuff/chemacs2"]
+	path = emacs_stuff/chemacs2
+	url = https://github.com/plexus/chemacs2.git
