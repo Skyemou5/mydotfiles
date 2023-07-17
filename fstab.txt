@@ -1,0 +1,24 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Sat May 14 12:25:56 2022
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk/'.
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+#
+# After editing this file, run 'systemctl daemon-reload' to update systemd
+# units generated from this file.
+#
+UUID=8caaa4a0-5057-4e95-a97f-c979541778fb /                       btrfs   subvol=root,compress=zstd:1 0 0
+UUID=be8357f6-e64e-44f6-8071-e5c58133fa56 /boot                   ext4    defaults        1 2
+UUID=72C3-975A          /boot/efi               vfat    umask=0077,shortname=winnt 0 2
+UUID=8caaa4a0-5057-4e95-a97f-c979541778fb /home                   btrfs   subvol=home,compress=zstd:1 0 0
+
+
+
+/dev/disk/by-uuid/BE627C17627BD31F /mnt/MegaStomach1 ntfs uid=1000, gid=1000, nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Mega%20Stomach%201 0 0
+/dev/disk/by-uuid/201CA8AE1CA88080 /mnt/MediumStomach ntfs uid=1000, gid=1000, nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Medium%20Stomach 0 0
+/dev/disk/by-uuid/0CF09AB2F09AA20E /mnt/MediumStomach2 ntfs uid=1000, gid=1000, nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Medium%20Stomach%202 0 0
+UUID=5d186591-57ec-44d8-9b80-0e653a619fda /mnt/Stomach ext4 defaults  0   0
+
+/swapfile none swap defaults 0 0
