@@ -1,0 +1,32 @@
+#tabbrowser-tabs {
+    visibility: collapse;
+}
+#navigator-toolbox {
+    display: flex;
+    flex-flow: row wrap;
+}
+#titlebar {
+    order: 1;
+    max-width: 146px;
+}
+#titlebar #TabsToolbar {
+    background-color: var(--toolbar-bgcolor);
+    background-image: var(--toolbar-bgimage)
+}
+#titlebar #TabsToolbar .titlebar-spacer {
+    background-color: rgba(0,0,0,0.05);
+    margin: 3px;
+    border-radius: 25%;
+    cursor: grab;
+}
+#titlebar #TabsToolbar .titlebar-spacer[type="pre-tabs"] {
+    display: none;
+}
+#nav-bar {
+    order: 0;
+    width: calc(100% - 146px);
+}
+#PersonalToolbar {
+    order: 2;
+}
+
